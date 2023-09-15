@@ -1,0 +1,123 @@
+/* Importation du font */
+@font-face {
+  font-family: amaticsc;
+  src: url(../font/LeagueSpartan-VariableFont_wght.ttf);
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: amaticsc, sans-serif;
+}
+
+/* Barre de navigation fixe */
+.navbar {
+  display: fixed;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  flex-wrap: wrap;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 7vh;
+  z-index: 2;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  display: none;
+}
+
+.navbar li {
+  margin-left: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Style pour le logo burger */
+#burger {
+  width: 2rem;
+  position: absolute;
+  right: 20px;
+  top: 3%;
+}
+
+.burger-logo img {
+  margin-right: 20px;
+}
+
+/* Menu déroulant mobile  */
+
+#check:checked ~ ul {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  font-weight: 100;
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.616);
+  top: 7.5vh;
+  flex-direction: column;
+  left: 0;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+nav li {
+  padding: 16px;
+}
+#check {
+  display: none;
+}
+
+/* Styles pour l'image de fond */
+.background-image {
+  background-image: url(../img/pizza.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+/* Titre Menu */
+
+#h1menu {
+  font-size: 4rem;
+  position: absolute;
+  top: 27%;
+  left: 27%;
+}
+
+/* Boutton */
+
+.button {
+  display: inline-block;
+  background-color: #000000;
+  border: 2px double #000000;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1rem;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 70%;
+  height: 8%;
+  position: absolute;
+  top: 50%;
+  left: 16%;
+}
