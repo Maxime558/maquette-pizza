@@ -331,10 +331,10 @@ nav li {
 #contact {
   background-color: #6c7b82;
   width: 100%;
-  height: 60vh;
+  height: 72vh;
 }
 
-#contact h2{
+#contact h2 {
   font-size: 4rem;
   color: white;
   display: flex;
@@ -342,16 +342,34 @@ nav li {
   align-items: center;
   padding: 40px 0;
 }
-#contact p{
+#contact p {
   color: white;
   line-height: 1.5rem;
   margin: 30px 20px;
   font-size: 1.5rem;
 }
 
-#contact form{
+#contact form {
   margin: 20px 20px;
 }
-#fyi{
-  font-weight: 900;
+#fyi {
+  background-color: black;
+}
+#contact input {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px 0;
+}
+
+#footer {
+  background-color: #000000;
+  height: 20vh;
+  position: relative;
+}
+#footer h2 {
+  position: absolute;
+  color: white;
+  top: 40%;
+  left: 40%;
+  font-size: 2rem;
 }
