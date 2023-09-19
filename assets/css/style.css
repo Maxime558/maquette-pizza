@@ -9,6 +9,7 @@
   margin: 0;
   padding: 0;
   font-family: amaticsc, sans-serif;
+  box-sizing: border-box;
 }
 
 /* Barre de navigation fixe */
@@ -187,13 +188,15 @@ nav li {
 
 .bouton-menu {
   position: relative;
-  top: 20%;
+  top: 10%;
   background-color: #000000;
   height: 104vh;
+  width: 100vw;
 }
 
 .buttonmenu1 {
   display: inline-block;
+  position: absolute;
   background-color: #ff0000;
   border: 0.5px double #5555557a;
   color: #ffffff;
@@ -206,9 +209,11 @@ nav li {
   height: 8%;
   margin-left: 25px;
   margin-right: -10px;
+  top: 10%;
 }
 
 .buttonmenu2 {
+  position: absolute;
   display: inline-block;
   background-color: #000000;
   border: 0.5px double #5555557a;
@@ -221,9 +226,12 @@ nav li {
   width: 31%;
   height: 8%;
   margin-right: -10px;
+  top: 10%;
+  left: 35%;
 }
 
 .buttonmenu3 {
+  position: absolute;
   display: inline-block;
   background-color: #000000;
   border: 0.5px double #5555557a;
@@ -235,6 +243,8 @@ nav li {
   margin-top: 20px;
   width: 31%;
   height: 8%;
+  top: 10%;
+  right: 5%;
 }
 
 /* Menu */
@@ -276,7 +286,7 @@ nav li {
 /* About */
 
 #about {
-  height: 173vh;
+  height: 150vh;
   width: 100%;
   margin-top: 1rem;
   background-color: #8b5f5c;
@@ -316,7 +326,7 @@ nav li {
   width: 30%;
   position: absolute;
   right: 0;
-  top: 38%;
+  top: 36%;
 }
 #chefgras {
   font-weight: 900;
@@ -379,6 +389,7 @@ nav li {
 }
 
 @media screen and (min-width: 1024px) {
+  /* NAV */
   .button {
     width: 19%;
     left: 40%;
@@ -394,4 +405,68 @@ nav li {
   #labelburger {
     display: none;
   }
+  .navbar ul {
+    top: 0;
+    display: none;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+  /* MENU */
+  .bouton-menu {
+    width: 70vw;
+  }
+  /* ABOUT */
+  #about {
+    height: 200vh;
+  }
+  #divabout {
+    justify-content: center;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .spanabout {
+    right: 35%;
+  }
+  #chefimg {
+    top: 16%;
+    width: 15%;
+    right: 10%;
+  }
+  #boutonmenu2 {
+    width: 100vw;
+  }
+  .bouton-menu {
+    width: 100vw;
+  }
+  #menupizza {
+    left: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .buttonmenu1 {
+    width: 25%;
+    left: 10%;
+  }
+  .buttonmenu2 {
+    width: 25%;
+    left: 35%;
+  }
+  .buttonmenu3 {
+    width: 25%;
+    right: 18.5%;
+  }
+  .hour {
+    display: block;
+  }
+
+  /* Map */
+  #map {
+    width: 100%;
+  }
+}
+/* Contact */
+#contact {
+  padding-left: 15%;
+  padding-right: 15%;
 }
