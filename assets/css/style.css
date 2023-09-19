@@ -189,7 +189,7 @@ nav li {
   position: relative;
   top: 20%;
   background-color: #000000;
-  height: 97vh;
+  height: 104vh;
 }
 
 .buttonmenu1 {
@@ -240,7 +240,7 @@ nav li {
 /* Menu */
 
 #menupizza {
-  height: 66vh;
+  height: 72vh;
   position: absolute;
   top: 30%;
   margin: 0 3px;
@@ -313,10 +313,10 @@ nav li {
 
 #chefimg {
   clip-path: ellipse(50% 50% at 50% 50%);
-  width: 40%;
+  width: 30%;
   position: absolute;
   right: 0;
-  top: 34%;
+  top: 38%;
 }
 #chefgras {
   font-weight: 900;
@@ -376,4 +376,22 @@ nav li {
   top: 40%;
   left: 40%;
   font-size: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .button {
+    width: 19%;
+    left: 40%;
+  }
+  .button2 {
+    width: 17%;
+    left: 1%;
+  }
+  #h1menu {
+    left: 35%;
+    font-size: 7rem;
+  }
+  #labelburger {
+    display: none;
+  }
 }
