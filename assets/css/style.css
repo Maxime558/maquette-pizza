@@ -335,7 +335,7 @@ nav li {
 #contact {
   background-color: #6c7b82;
   width: 100%;
-  height: 72vh;
+  height: 87vh;
 }
 
 #contact h2 {
@@ -344,13 +344,13 @@ nav li {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px 0;
+  padding: 20px 0;
 }
 #contact p {
   color: white;
-  line-height: 1.5rem;
+  line-height: 2rem;
   margin: 30px 20px;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 #contact form {
