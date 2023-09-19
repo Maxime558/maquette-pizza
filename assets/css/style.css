@@ -159,7 +159,7 @@ nav li {
   position: absolute;
   font-size: 3rem;
   top: 10%;
-  left: 30%;
+  left: 38%;
 }
 
 .menu {
@@ -189,7 +189,7 @@ nav li {
   position: relative;
   top: 20%;
   background-color: #000000;
-  height: 114vh;
+  height: 97vh;
 }
 
 .buttonmenu1 {
@@ -240,7 +240,7 @@ nav li {
 /* Menu */
 
 #menupizza {
-  height: 68vh;
+  height: 66vh;
   position: absolute;
   top: 30%;
   margin: 0 3px;
@@ -276,7 +276,7 @@ nav li {
 /* About */
 
 #about {
-  height: 170vh;
+  height: 168vh;
   width: 100%;
   margin-top: 1rem;
   background-color: #8b5f5c;
@@ -367,7 +367,7 @@ nav li {
 
 #footer {
   background-color: #000000;
-  height: 20vh;
+  height: 15vh;
   position: relative;
 }
 #footer h2 {
